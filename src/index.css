@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(62, 148, 53);
+  color: rgb(255,255,255);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mb-5 {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  padding:1rem;
+  margin-top: 1rem;
+  left: 0;
+  bottom: 0;
+}
+
+.boks {
+  display: grid;
+  grid-template-columns: repeat(6, 3fr);
+  grid-auto-rows: repeat(3, 3fr);
+  grid-gap:10px;
+
+}
